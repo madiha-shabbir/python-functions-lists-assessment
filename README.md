@@ -62,7 +62,7 @@ The program asks for a student's name, roll number and marks in five subjects (E
 
 ### Program Flow
 
-<p align="center"><img src="assets/result_card_flow.svg" alt="Flowchart of result_card_generator.py" width="75%"></p>
+<p align="center"><img src="assets/result-card-flow.svg" alt="Flowchart of resultcard-generator.py" width="75%"></p>
 
 ### Code Methods Description
 
@@ -121,7 +121,7 @@ The program asks how many students are in the class, then reads each student's n
 
 ### Program Flow
 
-<p align="center"><img src="assets/class_analyzer_flow.svg" alt="Flowchart of class_marks_analyzer.py" width="75%"></p>
+<p align="center"><img src="assets/class-analyzer-flow.svg" alt="Flowchart of class-marks-analyzer.py" width="75%"></p>
 
 ### Code Methods Description
 
@@ -167,7 +167,7 @@ The program asks how many students are in the class, then reads each student's n
 
 I chose a **module diagram** because both programs are procedural (no classes): it shows each file, its constants, its functions and the `«calls»` arrows between them.
 
-<p align="center"><img src="assets/uml_diagram.svg" alt="UML module diagram of both programs" width="100%"></p>
+<p align="center"><img src="assets/uml-diagram.svg" alt="UML module diagram of both programs" width="100%"></p>
 
 ## 6. Concepts and Techniques Used
 
@@ -538,4 +538,4 @@ Marks sorted from highest to lowest:
 
 
 
-**Author:** Madiha Shabir · **GitHub:** (https://github.com/Madiha_Shabbir)
+**Author:** Madiha Shabbir · **GitHub:** (https://github.com/Madiha_Shabbir)
