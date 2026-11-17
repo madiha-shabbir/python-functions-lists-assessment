@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 510" width="1000" height="510" role="img" aria-labelledby="t d"><title id="t">Project overview</title><desc id="d">Two task cards: file name, topic, input, rules, output and Python concepts used.</desc>
+<defs><marker id="ah-slate" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="11" markerHeight="11" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#475569"/></marker><marker id="ah-red" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="11" markerHeight="11" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#DC2626"/></marker><marker id="ah-amber" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="11" markerHeight="11" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#D97706"/></marker><marker id="ah-green" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="11" markerHeight="11" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#16A34A"/></marker></defs>
+<rect width="1000" height="510" fill="#FFFFFF"/>
+<defs><linearGradient id="g1" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#4338CA"/><stop offset="1" stop-color="#2563EB"/></linearGradient><linearGradient id="g2" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#0F766E"/><stop offset="1" stop-color="#0891B2"/></linearGradient></defs>
+<rect x="20" y="20" width="470" height="470" rx="14" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="1.5"/>
+<path d="M20 34 a14 14 0 0 1 14 -14 h442 a14 14 0 0 1 14 14 v62 h-470 z" fill="url(#g1)"/>
+<text x="40" y="44" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="bold" fill="#E0E7FF" text-anchor="start" >TASK 1</text>
+<text x="40" y="68" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="20" font-weight="bold" fill="#FFFFFF" text-anchor="start" >Student Result Card Generator</text>
+<text x="40" y="88" font-family="Consolas, Menlo, 'DejaVu Sans Mono', monospace" font-size="12.5" font-weight="normal" fill="#E0E7FF" text-anchor="start" >result_card_generator.py</text>
+<rect x="38" y="120" width="76" height="24" rx="12" fill="#F1F5F9" stroke="#64748B" stroke-width="1.6"/>
+<text x="76" y="136.5" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="bold" fill="#0F172A" text-anchor="middle" >Topic</text>
+<text x="128" y="135" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="12.5" font-weight="normal" fill="#1E293B" text-anchor="start" >Functions (def, parameters, return)</text>
+<text x="128" y="152" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="12.5" font-weight="normal" fill="#1E293B" text-anchor="start" >and string manipulation</text>
+<line x1="38" y1="173" x2="472" y2="173" stroke="#E2E8F0"/>
+<rect x="38" y="178" width="76" height="24" rx="12" fill="#DBEAFE" stroke="#2563EB" stroke-width="1.6"/>
+<text x="76" y="194.5" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="bold" fill="#1E3A8A" text-anchor="middle" >Input</text>
+<text x="128" y="193" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="12.5" font-weight="normal" fill="#1E293B" text-anchor="start" >Student name, roll number and marks</text>
+<text x="128" y="210" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="12.5" font-weight="normal" fill="#1E293B" text-anchor="start" >(0-100) in five subjects</text>
+<line x1="38" y1="231" x2="472" y2="231" stroke="#E2E8F0"/>
+<rect x="38" y="236" width="76" height="24" rx="12" fill="#EDE9FE" stroke="#7C3AED" stroke-width="1.6"/>
+<text x="76" y="252.5" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="bold" fill="#4C1D95" text-anchor="middle" >Rules</text>
+<text x="128" y="251" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="12.5" font-weight="normal" fill="#1E293B" text-anchor="start" >Roll number: digits only via .isdigit()</text>
+<text x="128" y="268" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="12.5" font-weight="normal" fill="#1E293B" text-anchor="start" >Name cleaned with .strip() and .title()</text>
+<text x="128" y="285" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="12.5" font-weight="normal" fill="#1E293B" text-anchor="start" >Any subject below 40 = Fail overall</text>
+<text x="128" y="302" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="12.5" font-weight="normal" fill="#1E293B" text-anchor="start" >Grades: A+ 90, A 80, B 70, C 60, D 50, Fail</text>
+<line x1="38" y1="323" x2="472" y2="323" stroke="#E2E8F0"/>
+<rect x="38" y="328" width="76" height="24" rx="12" fill="#DCFCE7" stroke="#16A34A" stroke-width="1.6"/>
+<text x="76" y="344.5" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="bold" fill="#14532D" text-anchor="middle" >Output</text>
+<text x="128" y="343" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="12.5" font-weight="normal" fill="#1E293B" text-anchor="start" >f-string result card: total, percentage</text>
+<text x="128" y="360" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="12.5" font-weight="normal" fill="#1E293B" text-anchor="start" >(2 d.p.), letter grade and Pass/Fail</text>
+<line x1="38" y1="381" x2="472" y2="381" stroke="#E2E8F0"/>
+<rect x="38" y="388" width="76" height="24" rx="12" fill="#F1F5F9" stroke="#64748B" stroke-width="1.6"/>
+<text x="76" y="404.5" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="bold" fill="#0F172A" text-anchor="middle" >Concepts</text>
+<rect x="128" y="388" width="39" height="24" rx="12" fill="#EEF2FF" stroke="#A5B4FC"/>
+<text x="147.65" y="404.5" font-family="Consolas, Menlo, 'DejaVu Sans Mono', monospace" font-size="11.5" font-weight="bold" fill="#3730A3" text-anchor="middle" >def</text>
+<rect x="173.3" y="388" width="61" height="24" rx="12" fill="#EEF2FF" stroke="#A5B4FC"/>
+<text x="203.60000000000002" y="404.5" font-family="Consolas, Menlo, 'DejaVu Sans Mono', monospace" font-size="11.5" font-weight="bold" fill="#3730A3" text-anchor="middle" >return</text>
+<rect x="239.9" y="388" width="89" height="24" rx="12" fill="#EEF2FF" stroke="#A5B4FC"/>
+<text x="284.4" y="404.5" font-family="Consolas, Menlo, 'DejaVu Sans Mono', monospace" font-size="11.5" font-weight="bold" fill="#3730A3" text-anchor="middle" >parameters</text>
+<rect x="334.9" y="388" width="82" height="24" rx="12" fill="#EEF2FF" stroke="#A5B4FC"/>
+<text x="375.84999999999997" y="404.5" font-family="Consolas, Menlo, 'DejaVu Sans Mono', monospace" font-size="11.5" font-weight="bold" fill="#3730A3" text-anchor="middle" >f-strings</text>
+<rect x="128" y="418" width="75" height="24" rx="12" fill="#EEF2FF" stroke="#A5B4FC"/>
+<text x="165.4" y="434.5" font-family="Consolas, Menlo, 'DejaVu Sans Mono', monospace" font-size="11.5" font-weight="bold" fill="#3730A3" text-anchor="middle" >.strip()</text>
+<rect x="208.8" y="418" width="75" height="24" rx="12" fill="#EEF2FF" stroke="#A5B4FC"/>
+<text x="246.20000000000002" y="434.5" font-family="Consolas, Menlo, 'DejaVu Sans Mono', monospace" font-size="11.5" font-weight="bold" fill="#3730A3" text-anchor="middle" >.title()</text>
+<rect x="289.6" y="418" width="89" height="24" rx="12" fill="#EEF2FF" stroke="#A5B4FC"/>
+<text x="334.1" y="434.5" font-family="Consolas, Menlo, 'DejaVu Sans Mono', monospace" font-size="11.5" font-weight="bold" fill="#3730A3" text-anchor="middle" >.isdigit()</text>
+<rect x="384.6" y="418" width="54" height="24" rx="12" fill="#EEF2FF" stroke="#A5B4FC"/>
+<text x="411.35" y="434.5" font-family="Consolas, Menlo, 'DejaVu Sans Mono', monospace" font-size="11.5" font-weight="bold" fill="#3730A3" text-anchor="middle" >sum()</text>
+<rect x="128" y="448" width="46" height="24" rx="12" fill="#EEF2FF" stroke="#A5B4FC"/>
+<text x="151.2" y="464.5" font-family="Consolas, Menlo, 'DejaVu Sans Mono', monospace" font-size="11.5" font-weight="bold" fill="#3730A3" text-anchor="middle" >dict</text>
+<rect x="510" y="20" width="470" height="470" rx="14" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="1.5"/>
+<path d="M510 34 a14 14 0 0 1 14 -14 h442 a14 14 0 0 1 14 14 v62 h-470 z" fill="url(#g2)"/>
+<text x="530" y="44" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="bold" fill="#E0E7FF" text-anchor="start" >TASK 2</text>
+<text x="530" y="68" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="20" font-weight="bold" fill="#FFFFFF" text-anchor="start" >Class Marks Analyzer</text>
+<text x="530" y="88" font-family="Consolas, Menlo, 'DejaVu Sans Mono', monospace" font-size="12.5" font-weight="normal" fill="#E0E7FF" text-anchor="start" >class_marks_analyzer.py</text>
+<rect x="528" y="120" width="76" height="24" rx="12" fill="#F1F5F9" stroke="#64748B" stroke-width="1.6"/>
+<text x="566" y="136.5" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="bold" fill="#0F172A" text-anchor="middle" >Topic</text>
+<text x="618" y="135" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="12.5" font-weight="normal" fill="#1E293B" text-anchor="start" >Lists (create, append, len, sum, max,</text>
+<text x="618" y="152" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="12.5" font-weight="normal" fill="#1E293B" text-anchor="start" >min, sorted) and loops</text>
+<line x1="528" y1="173" x2="962" y2="173" stroke="#E2E8F0"/>
+<rect x="528" y="178" width="76" height="24" rx="12" fill="#DBEAFE" stroke="#2563EB" stroke-width="1.6"/>
+<text x="566" y="194.5" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="bold" fill="#1E3A8A" text-anchor="middle" >Input</text>
+<text x="618" y="193" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="12.5" font-weight="normal" fill="#1E293B" text-anchor="start" >Class size, then a name and marks</text>
+<text x="618" y="210" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="12.5" font-weight="normal" fill="#1E293B" text-anchor="start" >(0-100) for every student</text>
+<line x1="528" y1="231" x2="962" y2="231" stroke="#E2E8F0"/>
+<rect x="528" y="236" width="76" height="24" rx="12" fill="#EDE9FE" stroke="#7C3AED" stroke-width="1.6"/>
+<text x="566" y="252.5" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="bold" fill="#4C1D95" text-anchor="middle" >Rules</text>
+<text x="618" y="251" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="12.5" font-weight="normal" fill="#1E293B" text-anchor="start" >Invalid marks are asked again</text>
+<text x="618" y="268" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="12.5" font-weight="normal" fill="#1E293B" text-anchor="start" >Pass = 50 or above, Fail = below 50</text>
+<text x="618" y="285" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="12.5" font-weight="normal" fill="#1E293B" text-anchor="start" >Ties for highest / lowest are all listed</text>
+<text x="618" y="302" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="12.5" font-weight="normal" fill="#1E293B" text-anchor="start" >Above average = strictly greater than mean</text>
+<line x1="528" y1="323" x2="962" y2="323" stroke="#E2E8F0"/>
+<rect x="528" y="328" width="76" height="24" rx="12" fill="#DCFCE7" stroke="#16A34A" stroke-width="1.6"/>
+<text x="566" y="344.5" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="bold" fill="#14532D" text-anchor="middle" >Output</text>
+<text x="618" y="343" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="12.5" font-weight="normal" fill="#1E293B" text-anchor="start" >Average, highest / lowest, pass / fail counts,</text>
+<text x="618" y="360" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="12.5" font-weight="normal" fill="#1E293B" text-anchor="start" >above-average list, ranking high to low</text>
+<line x1="528" y1="381" x2="962" y2="381" stroke="#E2E8F0"/>
+<rect x="528" y="388" width="76" height="24" rx="12" fill="#F1F5F9" stroke="#64748B" stroke-width="1.6"/>
+<text x="566" y="404.5" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="bold" fill="#0F172A" text-anchor="middle" >Concepts</text>
+<rect x="618" y="388" width="46" height="24" rx="12" fill="#EEF2FF" stroke="#A5B4FC"/>
+<text x="641.2" y="404.5" font-family="Consolas, Menlo, 'DejaVu Sans Mono', monospace" font-size="11.5" font-weight="bold" fill="#3730A3" text-anchor="middle" >list</text>
+<rect x="670.4" y="388" width="82" height="24" rx="12" fill="#EEF2FF" stroke="#A5B4FC"/>
+<text x="711.35" y="404.5" font-family="Consolas, Menlo, 'DejaVu Sans Mono', monospace" font-size="11.5" font-weight="bold" fill="#3730A3" text-anchor="middle" >.append()</text>
+<rect x="758.3" y="388" width="54" height="24" rx="12" fill="#EEF2FF" stroke="#A5B4FC"/>
+<text x="785.05" y="404.5" font-family="Consolas, Menlo, 'DejaVu Sans Mono', monospace" font-size="11.5" font-weight="bold" fill="#3730A3" text-anchor="middle" >len()</text>
+<rect x="817.8" y="388" width="54" height="24" rx="12" fill="#EEF2FF" stroke="#A5B4FC"/>
+<text x="844.55" y="404.5" font-family="Consolas, Menlo, 'DejaVu Sans Mono', monospace" font-size="11.5" font-weight="bold" fill="#3730A3" text-anchor="middle" >sum()</text>
+<rect x="877.3" y="388" width="54" height="24" rx="12" fill="#EEF2FF" stroke="#A5B4FC"/>
+<text x="904.05" y="404.5" font-family="Consolas, Menlo, 'DejaVu Sans Mono', monospace" font-size="11.5" font-weight="bold" fill="#3730A3" text-anchor="middle" >max()</text>
+<rect x="618" y="418" width="54" height="24" rx="12" fill="#EEF2FF" stroke="#A5B4FC"/>
+<text x="644.75" y="434.5" font-family="Consolas, Menlo, 'DejaVu Sans Mono', monospace" font-size="11.5" font-weight="bold" fill="#3730A3" text-anchor="middle" >min()</text>
+<rect x="677.5" y="418" width="75" height="24" rx="12" fill="#EEF2FF" stroke="#A5B4FC"/>
+<text x="714.9" y="434.5" font-family="Consolas, Menlo, 'DejaVu Sans Mono', monospace" font-size="11.5" font-weight="bold" fill="#3730A3" text-anchor="middle" >sorted()</text>
+<rect x="758.3" y="418" width="39" height="24" rx="12" fill="#EEF2FF" stroke="#A5B4FC"/>
+<text x="777.9499999999999" y="434.5" font-family="Consolas, Menlo, 'DejaVu Sans Mono', monospace" font-size="11.5" font-weight="bold" fill="#3730A3" text-anchor="middle" >for</text>
+<rect x="803.5999999999999" y="418" width="54" height="24" rx="12" fill="#EEF2FF" stroke="#A5B4FC"/>
+<text x="830.3499999999999" y="434.5" font-family="Consolas, Menlo, 'DejaVu Sans Mono', monospace" font-size="11.5" font-weight="bold" fill="#3730A3" text-anchor="middle" >while</text>
+<rect x="863.0999999999999" y="418" width="82" height="24" rx="12" fill="#EEF2FF" stroke="#A5B4FC"/>
+<text x="904.05" y="434.5" font-family="Consolas, Menlo, 'DejaVu Sans Mono', monospace" font-size="11.5" font-weight="bold" fill="#3730A3" text-anchor="middle" >functions</text>
+</svg>

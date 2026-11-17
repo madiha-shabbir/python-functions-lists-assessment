@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 1730" width="900" height="1730" role="img" aria-labelledby="t d"><title id="t">Program flow: result_card_generator.py</title><desc id="d">Flowchart of the Student Result Card Generator: inputs, validation loops, grading and output.</desc>
+<defs><marker id="ah-slate" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="11" markerHeight="11" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#475569"/></marker><marker id="ah-red" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="11" markerHeight="11" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#DC2626"/></marker><marker id="ah-amber" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="11" markerHeight="11" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#D97706"/></marker><marker id="ah-green" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="11" markerHeight="11" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#16A34A"/></marker></defs>
+<rect width="900" height="1730" fill="#FFFFFF"/>
+<text x="30" y="36" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="21" font-weight="bold" fill="#0F172A" text-anchor="start" >Program Flow: result_card_generator.py</text>
+<text x="30" y="58" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="normal" fill="#64748B" text-anchor="start" >Task 1 - Student Result Card Generator</text>
+<rect x="650" y="20" width="196" height="148" rx="8" fill="#FFFFFF" stroke="#CBD5E1"/>
+<rect x="662" y="30" width="22" height="14" rx="3" fill="#DBEAFE" stroke="#2563EB" stroke-width="1.6"/>
+<text x="694" y="42" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="normal" fill="#334155" text-anchor="start" >Input</text>
+<rect x="662" y="52" width="22" height="14" rx="3" fill="#EDE9FE" stroke="#7C3AED" stroke-width="1.6"/>
+<text x="694" y="64" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="normal" fill="#334155" text-anchor="start" >Decision / check</text>
+<rect x="662" y="74" width="22" height="14" rx="3" fill="#F1F5F9" stroke="#64748B" stroke-width="1.6"/>
+<text x="694" y="86" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="normal" fill="#334155" text-anchor="start" >Process</text>
+<rect x="662" y="96" width="22" height="14" rx="3" fill="#DCFCE7" stroke="#16A34A" stroke-width="1.6"/>
+<text x="694" y="108" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="normal" fill="#334155" text-anchor="start" >Success / output</text>
+<rect x="662" y="118" width="22" height="14" rx="3" fill="#FEE2E2" stroke="#DC2626" stroke-width="1.6"/>
+<text x="694" y="130" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="normal" fill="#334155" text-anchor="start" >Error (ask again)</text>
+<rect x="662" y="140" width="22" height="14" rx="3" fill="#FEF3C7" stroke="#D97706" stroke-width="1.6"/>
+<text x="694" y="152" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="normal" fill="#334155" text-anchor="start" >Warning / override</text>
+<rect x="275.0" y="86" width="130" height="38" rx="19" fill="#1E293B"/>
+<text x="340" y="110" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="14" font-weight="bold" fill="#FFFFFF" text-anchor="middle" >START</text>
+<polygon points="223.0,153.0 475.0,153.0 457.0,207.0 205.0,207.0" fill="#DBEAFE" stroke="#2563EB" stroke-width="2" stroke-linejoin="round"/>
+<text x="340" y="176.0" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="13.5" font-weight="bold" fill="#1E3A8A" text-anchor="middle" >INPUT: student name</text>
+<text x="340" y="193.0" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="normal" fill="#1E3A8A" text-anchor="middle" >get_valid_name()</text>
+<rect x="205.0" y="231.0" width="270" height="54" rx="10" fill="#F1F5F9" stroke="#64748B" stroke-width="2"/>
+<text x="340" y="254.0" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="13.5" font-weight="bold" fill="#0F172A" text-anchor="middle" >format_name(name)</text>
+<text x="340" y="271.0" font-family="Consolas, Menlo, 'DejaVu Sans Mono', monospace" font-size="11.5" font-weight="normal" fill="#0F172A" text-anchor="middle" >strip() -&gt; collapse -&gt; title()</text>
+<polygon points="340,307.0 475.0,352 340,397.0 205.0,352" fill="#EDE9FE" stroke="#7C3AED" stroke-width="2" stroke-linejoin="round"/>
+<text x="340" y="348.5" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="13.5" font-weight="bold" fill="#4C1D95" text-anchor="middle" >Name valid?</text>
+<text x="340" y="364.5" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="normal" fill="#4C1D95" text-anchor="middle" >letters only, not empty</text>
+<polygon points="223.0,428.0 475.0,428.0 457.0,482.0 205.0,482.0" fill="#DBEAFE" stroke="#2563EB" stroke-width="2" stroke-linejoin="round"/>
+<text x="340" y="451.0" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="13.5" font-weight="bold" fill="#1E3A8A" text-anchor="middle" >INPUT: roll number</text>
+<text x="340" y="468.0" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="normal" fill="#1E3A8A" text-anchor="middle" >get_valid_roll_number()</text>
+<polygon points="340,504.0 475.0,549 340,594.0 205.0,549" fill="#EDE9FE" stroke="#7C3AED" stroke-width="2" stroke-linejoin="round"/>
+<text x="340" y="545.5" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="13.5" font-weight="bold" fill="#4C1D95" text-anchor="middle" >roll_number.isdigit()?</text>
+<text x="340" y="561.5" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="normal" fill="#4C1D95" text-anchor="middle" >digits 0-9 only</text>
+<polygon points="223.0,625.0 475.0,625.0 457.0,679.0 205.0,679.0" fill="#DBEAFE" stroke="#2563EB" stroke-width="2" stroke-linejoin="round"/>
+<text x="340" y="648.0" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="13.5" font-weight="bold" fill="#1E3A8A" text-anchor="middle" >INPUT: marks for subject</text>
+<text x="340" y="665.0" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="normal" fill="#1E3A8A" text-anchor="middle" >get_valid_marks(subject)</text>
+<polygon points="340,701.0 475.0,746 340,791.0 205.0,746" fill="#EDE9FE" stroke="#7C3AED" stroke-width="2" stroke-linejoin="round"/>
+<text x="340" y="742.5" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="13.5" font-weight="bold" fill="#4C1D95" text-anchor="middle" >Whole number</text>
+<text x="340" y="758.5" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="13.5" font-weight="bold" fill="#4C1D95" text-anchor="middle" >from 0 to 100?</text>
+<rect x="205.0" y="819.0" width="270" height="54" rx="10" fill="#F1F5F9" stroke="#64748B" stroke-width="2"/>
+<text x="340" y="842.0" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="13.5" font-weight="bold" fill="#0F172A" text-anchor="middle" >Store marks</text>
+<text x="340" y="859.0" font-family="Consolas, Menlo, 'DejaVu Sans Mono', monospace" font-size="11.5" font-weight="normal" fill="#0F172A" text-anchor="middle" >marks_by_subject[subject]</text>
+<polygon points="340,895.0 475.0,940 340,985.0 205.0,940" fill="#EDE9FE" stroke="#7C3AED" stroke-width="2" stroke-linejoin="round"/>
+<text x="340" y="936.5" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="13.5" font-weight="bold" fill="#4C1D95" text-anchor="middle" >All 5 subjects</text>
+<text x="340" y="952.5" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="13.5" font-weight="bold" fill="#4C1D95" text-anchor="middle" >entered?</text>
+<rect x="205.0" y="1019.0" width="270" height="54" rx="10" fill="#F1F5F9" stroke="#64748B" stroke-width="2"/>
+<text x="340" y="1042.0" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="13.5" font-weight="bold" fill="#0F172A" text-anchor="middle" >total = sum(marks)</text>
+<text x="340" y="1059.0" font-family="Consolas, Menlo, 'DejaVu Sans Mono', monospace" font-size="11.5" font-weight="normal" fill="#0F172A" text-anchor="middle" >calculate_percentage(total, 500)</text>
+<rect x="205.0" y="1097.0" width="270" height="54" rx="10" fill="#F1F5F9" stroke="#64748B" stroke-width="2"/>
+<text x="340" y="1120.0" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="13.5" font-weight="bold" fill="#0F172A" text-anchor="middle" >failed_subjects</text>
+<text x="340" y="1137.0" font-family="Consolas, Menlo, 'DejaVu Sans Mono', monospace" font-size="11.5" font-weight="normal" fill="#0F172A" text-anchor="middle" >get_failed_subjects(): mark &lt; 40</text>
+<rect x="205.0" y="1175.0" width="270" height="54" rx="10" fill="#F1F5F9" stroke="#64748B" stroke-width="2"/>
+<text x="340" y="1198.0" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="13.5" font-weight="bold" fill="#0F172A" text-anchor="middle" >grade = get_grade(percentage)</text>
+<text x="340" y="1215.0" font-family="Consolas, Menlo, 'DejaVu Sans Mono', monospace" font-size="11.5" font-weight="normal" fill="#0F172A" text-anchor="middle" >A+ / A / B / C / D / Fail</text>
+<polygon points="340,1255.0 475.0,1300 340,1345.0 205.0,1300" fill="#EDE9FE" stroke="#7C3AED" stroke-width="2" stroke-linejoin="round"/>
+<text x="340" y="1296.5" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="13.5" font-weight="bold" fill="#4C1D95" text-anchor="middle" >Any subject</text>
+<text x="340" y="1312.5" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="13.5" font-weight="bold" fill="#4C1D95" text-anchor="middle" >below 40?</text>
+<polygon points="340,1375.0 475.0,1420 340,1465.0 205.0,1420" fill="#EDE9FE" stroke="#7C3AED" stroke-width="2" stroke-linejoin="round"/>
+<text x="340" y="1416.5" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="13.5" font-weight="bold" fill="#4C1D95" text-anchor="middle" >grade == Fail?</text>
+<text x="340" y="1432.5" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="normal" fill="#4C1D95" text-anchor="middle" >get_final_result()</text>
+<rect x="205.0" y="1493.0" width="270" height="54" rx="10" fill="#DCFCE7" stroke="#16A34A" stroke-width="2"/>
+<text x="340" y="1524.5" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="13.5" font-weight="bold" fill="#14532D" text-anchor="middle" >status = Pass</text>
+<polygon points="223.0,1583.0 475.0,1583.0 457.0,1637.0 205.0,1637.0" fill="#DCFCE7" stroke="#16A34A" stroke-width="2" stroke-linejoin="round"/>
+<text x="340" y="1606.0" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="13.5" font-weight="bold" fill="#14532D" text-anchor="middle" >OUTPUT: result card</text>
+<text x="340" y="1623.0" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="normal" fill="#14532D" text-anchor="middle" >build_result_card() with f-strings</text>
+<rect x="275.0" y="1671" width="130" height="38" rx="19" fill="#1E293B"/>
+<text x="340" y="1695" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="14" font-weight="bold" fill="#FFFFFF" text-anchor="middle" >END</text>
+<rect x="620.0" y="323.0" width="230" height="58" rx="10" fill="#FEE2E2" stroke="#DC2626" stroke-width="2"/>
+<text x="735" y="348.0" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="13.5" font-weight="bold" fill="#7F1D1D" text-anchor="middle" >Show error message</text>
+<text x="735" y="365.0" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="normal" fill="#7F1D1D" text-anchor="middle" >ask again</text>
+<path d="M475.0,352 L620,352" fill="none" stroke="#DC2626" stroke-width="1.9" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#ah-red)"/>
+<text x="483.0" y="344" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="bold" fill="#B91C1C" text-anchor="start" >No</text>
+<path d="M735,323 L735,180 L466.0,180" fill="none" stroke="#DC2626" stroke-width="1.9" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#ah-red)"/>
+<rect x="620.0" y="520.0" width="230" height="58" rx="10" fill="#FEE2E2" stroke="#DC2626" stroke-width="2"/>
+<text x="735" y="545.0" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="13.5" font-weight="bold" fill="#7F1D1D" text-anchor="middle" >Show error message</text>
+<text x="735" y="562.0" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="normal" fill="#7F1D1D" text-anchor="middle" >ask again</text>
+<path d="M475.0,549 L620,549" fill="none" stroke="#DC2626" stroke-width="1.9" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#ah-red)"/>
+<text x="483.0" y="541" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="bold" fill="#B91C1C" text-anchor="start" >No</text>
+<path d="M735,520 L735,455 L466.0,455" fill="none" stroke="#DC2626" stroke-width="1.9" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#ah-red)"/>
+<rect x="620.0" y="717.0" width="230" height="58" rx="10" fill="#FEE2E2" stroke="#DC2626" stroke-width="2"/>
+<text x="735" y="742.0" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="13.5" font-weight="bold" fill="#7F1D1D" text-anchor="middle" >Show error message</text>
+<text x="735" y="759.0" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="normal" fill="#7F1D1D" text-anchor="middle" >ask again</text>
+<path d="M475.0,746 L620,746" fill="none" stroke="#DC2626" stroke-width="1.9" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#ah-red)"/>
+<text x="483.0" y="738" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="bold" fill="#B91C1C" text-anchor="start" >No</text>
+<path d="M735,717 L735,652 L466.0,652" fill="none" stroke="#DC2626" stroke-width="1.9" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#ah-red)"/>
+<rect x="620.0" y="1271.0" width="230" height="58" rx="10" fill="#FEF3C7" stroke="#D97706" stroke-width="2"/>
+<text x="735" y="1296.0" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="13.5" font-weight="bold" fill="#78350F" text-anchor="middle" >Override: grade = Fail</text>
+<text x="735" y="1313.0" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="normal" fill="#78350F" text-anchor="middle" >subject rule beats %</text>
+<path d="M475.0,1300 L620,1300" fill="none" stroke="#D97706" stroke-width="1.9" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#ah-amber)"/>
+<text x="483.0" y="1292" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="bold" fill="#92400E" text-anchor="start" >Yes</text>
+<path d="M735,1329 L735,1360 L340,1360" fill="none" stroke="#D97706" stroke-width="1.9" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="620.0" y="1391.0" width="230" height="58" rx="10" fill="#FEE2E2" stroke="#DC2626" stroke-width="2"/>
+<text x="735" y="1416.0" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="13.5" font-weight="bold" fill="#7F1D1D" text-anchor="middle" >status = Fail</text>
+<text x="735" y="1433.0" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="normal" fill="#7F1D1D" text-anchor="middle" >rule or % below 50</text>
+<path d="M475.0,1420 L620,1420" fill="none" stroke="#DC2626" stroke-width="1.9" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#ah-red)"/>
+<text x="483.0" y="1412" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="bold" fill="#B91C1C" text-anchor="start" >Yes</text>
+<path d="M735,1449 L735,1610 L466.0,1610" fill="none" stroke="#DC2626" stroke-width="1.9" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#ah-red)"/>
+<path d="M340,124 L340,153.0" fill="none" stroke="#475569" stroke-width="1.9" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#ah-slate)"/>
+<path d="M340,207.0 L340,231.0" fill="none" stroke="#475569" stroke-width="1.9" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#ah-slate)"/>
+<path d="M340,285.0 L340,307.0" fill="none" stroke="#475569" stroke-width="1.9" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#ah-slate)"/>
+<path d="M340,397.0 L340,428.0" fill="none" stroke="#475569" stroke-width="1.9" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#ah-slate)"/>
+<text x="350" y="414.0" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="bold" fill="#166534" text-anchor="start" >Yes</text>
+<path d="M340,482.0 L340,504.0" fill="none" stroke="#475569" stroke-width="1.9" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#ah-slate)"/>
+<path d="M340,594.0 L340,625.0" fill="none" stroke="#475569" stroke-width="1.9" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#ah-slate)"/>
+<text x="350" y="611.0" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="bold" fill="#166534" text-anchor="start" >Yes</text>
+<path d="M340,679.0 L340,701.0" fill="none" stroke="#475569" stroke-width="1.9" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#ah-slate)"/>
+<path d="M340,791.0 L340,819.0" fill="none" stroke="#475569" stroke-width="1.9" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#ah-slate)"/>
+<text x="350" y="808.0" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="bold" fill="#166534" text-anchor="start" >Yes</text>
+<path d="M340,873.0 L340,895.0" fill="none" stroke="#475569" stroke-width="1.9" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#ah-slate)"/>
+<path d="M340,985.0 L340,1019.0" fill="none" stroke="#475569" stroke-width="1.9" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#ah-slate)"/>
+<text x="350" y="1004.0" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="bold" fill="#166534" text-anchor="start" >Yes</text>
+<path d="M205.0,940 L70,940 L70,652 L214.0,652" fill="none" stroke="#475569" stroke-width="1.9" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#ah-slate)"/>
+<text x="78" y="932" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="bold" fill="#475569" text-anchor="start" >No: next subject</text>
+<path d="M340,1073.0 L340,1097.0" fill="none" stroke="#475569" stroke-width="1.9" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#ah-slate)"/>
+<path d="M340,1151.0 L340,1175.0" fill="none" stroke="#475569" stroke-width="1.9" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#ah-slate)"/>
+<path d="M340,1229.0 L340,1255.0" fill="none" stroke="#475569" stroke-width="1.9" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#ah-slate)"/>
+<path d="M340,1345.0 L340,1375.0" fill="none" stroke="#475569" stroke-width="1.9" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#ah-slate)"/>
+<text x="328" y="1356" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="bold" fill="#475569" text-anchor="end" >No</text>
+<path d="M340,1465.0 L340,1493.0" fill="none" stroke="#475569" stroke-width="1.9" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#ah-slate)"/>
+<text x="350" y="1481.0" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="bold" fill="#475569" text-anchor="start" >No</text>
+<path d="M340,1547.0 L340,1583.0" fill="none" stroke="#475569" stroke-width="1.9" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#ah-slate)"/>
+<path d="M340,1637.0 L340,1671" fill="none" stroke="#475569" stroke-width="1.9" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#ah-slate)"/>
+</svg>

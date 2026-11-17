@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1260 1018" width="1260" height="1018" role="img" aria-labelledby="t d"><title id="t">UML module diagram</title><desc id="d">Module diagram of both programs: constants, functions and dashed calls arrows between them.</desc>
+<defs><marker id="ah-slate" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="11" markerHeight="11" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#475569"/></marker><marker id="ah-red" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="11" markerHeight="11" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#DC2626"/></marker><marker id="ah-amber" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="11" markerHeight="11" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#D97706"/></marker><marker id="ah-green" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="11" markerHeight="11" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#16A34A"/></marker></defs>
+<rect width="1260" height="1018" fill="#FFFFFF"/>
+<text x="30" y="36" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="21" font-weight="bold" fill="#0F172A" text-anchor="start" >UML Module Diagram: both programs</text>
+<text x="30" y="58" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="normal" fill="#64748B" text-anchor="start" >Procedural code, so each file is a module; dashed arrows are «calls»</text>
+<rect x="15" y="78" width="610" height="878" rx="14" fill="#FFFFFF" stroke="#334155" stroke-width="2"/>
+<path d="M15 92 a14 14 0 0 1 14 -14 h582 a14 14 0 0 1 14 14 v34 h-610 z" fill="#1E293B"/>
+<text x="320.0" y="109" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="16" font-weight="bold" fill="#FFFFFF" text-anchor="middle" >«module»  result_card_generator.py</text>
+<rect x="33" y="144" width="574" height="128" rx="8" fill="#F8FAFC" stroke="#94A3B8" stroke-width="1.5"/>
+<text x="47" y="166" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="12.5" font-weight="bold" fill="#475569" text-anchor="start" >«constants»</text>
+<text x="47" y="190" font-family="Consolas, Menlo, 'DejaVu Sans Mono', monospace" font-size="11" font-weight="normal" fill="#0F172A" text-anchor="start" >SUBJECTS = [5 subject names]</text>
+<text x="47" y="209" font-family="Consolas, Menlo, 'DejaVu Sans Mono', monospace" font-size="11" font-weight="normal" fill="#0F172A" text-anchor="start" >MIN_MARKS = 0</text>
+<text x="47" y="228" font-family="Consolas, Menlo, 'DejaVu Sans Mono', monospace" font-size="11" font-weight="normal" fill="#0F172A" text-anchor="start" >MAX_MARKS = 100</text>
+<text x="47" y="247" font-family="Consolas, Menlo, 'DejaVu Sans Mono', monospace" font-size="11" font-weight="normal" fill="#0F172A" text-anchor="start" >SUBJECT_PASS_MARK = 40</text>
+<text x="332" y="190" font-family="Consolas, Menlo, 'DejaVu Sans Mono', monospace" font-size="11" font-weight="normal" fill="#0F172A" text-anchor="start" >FAIL_GRADE = "Fail"</text>
+<text x="332" y="209" font-family="Consolas, Menlo, 'DejaVu Sans Mono', monospace" font-size="11" font-weight="normal" fill="#0F172A" text-anchor="start" >GRADE_BANDS = [(90, "A+") ... (50, "D")]</text>
+<text x="332" y="228" font-family="Consolas, Menlo, 'DejaVu Sans Mono', monospace" font-size="11" font-weight="normal" fill="#0F172A" text-anchor="start" >CARD_WIDTH = 44</text>
+<text x="332" y="247" font-family="Consolas, Menlo, 'DejaVu Sans Mono', monospace" font-size="11" font-weight="normal" fill="#0F172A" text-anchor="start" >NAME_SPECIAL_CHARS = " .'-"</text>
+<rect x="205" y="292.0" width="370" height="46" rx="8" fill="#DBEAFE" stroke="#2563EB" stroke-width="1.8"/>
+<text x="217" y="311.0" font-family="Consolas, Menlo, 'DejaVu Sans Mono', monospace" font-size="11" font-weight="bold" fill="#1E3A8A" text-anchor="start" >get_valid_name()</text>
+<text x="217" y="329.0" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="10.5" font-weight="normal" fill="#475569" text-anchor="start" >Ask until the name is valid (letters only)</text>
+<rect x="205" y="352.0" width="370" height="46" rx="8" fill="#F1F5F9" stroke="#64748B" stroke-width="1.8"/>
+<text x="217" y="371.0" font-family="Consolas, Menlo, 'DejaVu Sans Mono', monospace" font-size="11" font-weight="bold" fill="#0F172A" text-anchor="start" >format_name(name)</text>
+<text x="217" y="389.0" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="10.5" font-weight="normal" fill="#475569" text-anchor="start" >strip, collapse spaces, title()</text>
+<rect x="205" y="412.0" width="370" height="46" rx="8" fill="#DBEAFE" stroke="#2563EB" stroke-width="1.8"/>
+<text x="217" y="431.0" font-family="Consolas, Menlo, 'DejaVu Sans Mono', monospace" font-size="11" font-weight="bold" fill="#1E3A8A" text-anchor="start" >get_valid_roll_number()</text>
+<text x="217" y="449.0" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="10.5" font-weight="normal" fill="#475569" text-anchor="start" >Ask until the roll number passes isdigit()</text>
+<rect x="205" y="472.0" width="370" height="46" rx="8" fill="#DBEAFE" stroke="#2563EB" stroke-width="1.8"/>
+<text x="217" y="491.0" font-family="Consolas, Menlo, 'DejaVu Sans Mono', monospace" font-size="11" font-weight="bold" fill="#1E3A8A" text-anchor="start" >get_valid_marks(subject)</text>
+<text x="217" y="509.0" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="10.5" font-weight="normal" fill="#475569" text-anchor="start" >Ask until marks are a whole number 0-100</text>
+<rect x="205" y="532.0" width="370" height="46" rx="8" fill="#F1F5F9" stroke="#64748B" stroke-width="1.8"/>
+<text x="217" y="551.0" font-family="Consolas, Menlo, 'DejaVu Sans Mono', monospace" font-size="11" font-weight="bold" fill="#0F172A" text-anchor="start" >parse_whole_number(text)</text>
+<text x="217" y="569.0" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="10.5" font-weight="normal" fill="#475569" text-anchor="start" >Text to int, or None if not a whole number</text>
+<rect x="205" y="592.0" width="370" height="46" rx="8" fill="#EDE9FE" stroke="#7C3AED" stroke-width="1.8"/>
+<text x="217" y="611.0" font-family="Consolas, Menlo, 'DejaVu Sans Mono', monospace" font-size="11" font-weight="bold" fill="#4C1D95" text-anchor="start" >calculate_percentage(total, max_total)</text>
+<text x="217" y="629.0" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="10.5" font-weight="normal" fill="#475569" text-anchor="start" >Percentage rounded to 2 decimals</text>
+<rect x="205" y="652.0" width="370" height="46" rx="8" fill="#EDE9FE" stroke="#7C3AED" stroke-width="1.8"/>
+<text x="217" y="671.0" font-family="Consolas, Menlo, 'DejaVu Sans Mono', monospace" font-size="11" font-weight="bold" fill="#4C1D95" text-anchor="start" >get_failed_subjects(marks_by_subject)</text>
+<text x="217" y="689.0" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="10.5" font-weight="normal" fill="#475569" text-anchor="start" >Subjects with marks below 40</text>
+<rect x="205" y="712.0" width="370" height="46" rx="8" fill="#EDE9FE" stroke="#7C3AED" stroke-width="1.8"/>
+<text x="217" y="731.0" font-family="Consolas, Menlo, 'DejaVu Sans Mono', monospace" font-size="11" font-weight="bold" fill="#4C1D95" text-anchor="start" >get_final_result(percentage, failed_subjects)</text>
+<text x="217" y="749.0" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="10.5" font-weight="normal" fill="#475569" text-anchor="start" >(grade, status); the subject rule wins</text>
+<rect x="205" y="772.0" width="370" height="46" rx="8" fill="#EDE9FE" stroke="#7C3AED" stroke-width="1.8"/>
+<text x="217" y="791.0" font-family="Consolas, Menlo, 'DejaVu Sans Mono', monospace" font-size="11" font-weight="bold" fill="#4C1D95" text-anchor="start" >get_fail_reasons(percentage, failed_subjects)</text>
+<text x="217" y="809.0" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="10.5" font-weight="normal" fill="#475569" text-anchor="start" >Sentences explaining a Fail</text>
+<rect x="205" y="832.0" width="370" height="46" rx="8" fill="#EDE9FE" stroke="#7C3AED" stroke-width="1.8"/>
+<text x="217" y="851.0" font-family="Consolas, Menlo, 'DejaVu Sans Mono', monospace" font-size="11" font-weight="bold" fill="#4C1D95" text-anchor="start" >get_grade(percentage)</text>
+<text x="217" y="869.0" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="10.5" font-weight="normal" fill="#475569" text-anchor="start" >Letter grade from GRADE_BANDS</text>
+<rect x="205" y="892.0" width="370" height="46" rx="8" fill="#DCFCE7" stroke="#16A34A" stroke-width="1.8"/>
+<text x="217" y="911.0" font-family="Consolas, Menlo, 'DejaVu Sans Mono', monospace" font-size="11" font-weight="bold" fill="#14532D" text-anchor="start" >build_result_card(name, roll_number, ...)</text>
+<text x="217" y="929.0" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="10.5" font-weight="normal" fill="#475569" text-anchor="start" >Format the card with f-strings</text>
+<rect x="33" y="292.0" width="120" height="46" rx="8" fill="#F1F5F9" stroke="#64748B" stroke-width="2"/>
+<text x="93" y="312.0" font-family="Consolas, Menlo, 'DejaVu Sans Mono', monospace" font-size="13" font-weight="bold" fill="#0F172A" text-anchor="middle" >main()</text>
+<text x="93" y="329.0" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="10.5" font-weight="normal" fill="#475569" text-anchor="middle" >entry point</text>
+<path d="M153,315.0 L175,315.0 L175,915.0" fill="none" stroke="#475569" stroke-width="1.9" stroke-linejoin="round" stroke-linecap="round" stroke-dasharray="6 4"/>
+<path d="M175,315.0 L205,315.0" fill="none" stroke="#475569" stroke-width="1.9" stroke-linejoin="round" stroke-linecap="round" stroke-dasharray="6 4" marker-end="url(#ah-slate)"/>
+<path d="M175,435.0 L205,435.0" fill="none" stroke="#475569" stroke-width="1.9" stroke-linejoin="round" stroke-linecap="round" stroke-dasharray="6 4" marker-end="url(#ah-slate)"/>
+<path d="M175,495.0 L205,495.0" fill="none" stroke="#475569" stroke-width="1.9" stroke-linejoin="round" stroke-linecap="round" stroke-dasharray="6 4" marker-end="url(#ah-slate)"/>
+<path d="M175,615.0 L205,615.0" fill="none" stroke="#475569" stroke-width="1.9" stroke-linejoin="round" stroke-linecap="round" stroke-dasharray="6 4" marker-end="url(#ah-slate)"/>
+<path d="M175,675.0 L205,675.0" fill="none" stroke="#475569" stroke-width="1.9" stroke-linejoin="round" stroke-linecap="round" stroke-dasharray="6 4" marker-end="url(#ah-slate)"/>
+<path d="M175,735.0 L205,735.0" fill="none" stroke="#475569" stroke-width="1.9" stroke-linejoin="round" stroke-linecap="round" stroke-dasharray="6 4" marker-end="url(#ah-slate)"/>
+<path d="M175,795.0 L205,795.0" fill="none" stroke="#475569" stroke-width="1.9" stroke-linejoin="round" stroke-linecap="round" stroke-dasharray="6 4" marker-end="url(#ah-slate)"/>
+<path d="M175,915.0 L205,915.0" fill="none" stroke="#475569" stroke-width="1.9" stroke-linejoin="round" stroke-linecap="round" stroke-dasharray="6 4" marker-end="url(#ah-slate)"/>
+<text x="181" y="286.0" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="10.5" font-weight="normal" fill="#475569" text-anchor="start" font-style="italic">«calls»</text>
+<path d="M575,315.0 L589,315.0 L589,375.0 L575,375.0" fill="none" stroke="#475569" stroke-width="1.9" stroke-linejoin="round" stroke-linecap="round" stroke-dasharray="6 4" marker-end="url(#ah-slate)"/>
+<path d="M575,495.0 L589,495.0 L589,555.0 L575,555.0" fill="none" stroke="#475569" stroke-width="1.9" stroke-linejoin="round" stroke-linecap="round" stroke-dasharray="6 4" marker-end="url(#ah-slate)"/>
+<path d="M575,795.0 L589,795.0 L589,847.0 L575,847.0" fill="none" stroke="#475569" stroke-width="1.9" stroke-linejoin="round" stroke-linecap="round" stroke-dasharray="6 4" marker-end="url(#ah-slate)"/>
+<path d="M575,735.0 L607,735.0 L607,863.0 L575,863.0" fill="none" stroke="#475569" stroke-width="1.9" stroke-linejoin="round" stroke-linecap="round" stroke-dasharray="6 4" marker-end="url(#ah-slate)"/>
+<rect x="635" y="78" width="610" height="878" rx="14" fill="#FFFFFF" stroke="#334155" stroke-width="2"/>
+<path d="M635 92 a14 14 0 0 1 14 -14 h582 a14 14 0 0 1 14 14 v34 h-610 z" fill="#1E293B"/>
+<text x="940.0" y="109" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="16" font-weight="bold" fill="#FFFFFF" text-anchor="middle" >«module»  class_marks_analyzer.py</text>
+<rect x="653" y="144" width="574" height="128" rx="8" fill="#F8FAFC" stroke="#94A3B8" stroke-width="1.5"/>
+<text x="667" y="166" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="12.5" font-weight="bold" fill="#475569" text-anchor="start" >«constants»</text>
+<text x="667" y="190" font-family="Consolas, Menlo, 'DejaVu Sans Mono', monospace" font-size="11" font-weight="normal" fill="#0F172A" text-anchor="start" >MIN_MARKS = 0</text>
+<text x="667" y="209" font-family="Consolas, Menlo, 'DejaVu Sans Mono', monospace" font-size="11" font-weight="normal" fill="#0F172A" text-anchor="start" >MAX_MARKS = 100</text>
+<text x="952" y="190" font-family="Consolas, Menlo, 'DejaVu Sans Mono', monospace" font-size="11" font-weight="normal" fill="#0F172A" text-anchor="start" >PASS_MARK = 50</text>
+<text x="952" y="209" font-family="Consolas, Menlo, 'DejaVu Sans Mono', monospace" font-size="11" font-weight="normal" fill="#0F172A" text-anchor="start" >REPORT_WIDTH = 52</text>
+<rect x="825" y="292.0" width="370" height="46" rx="8" fill="#DBEAFE" stroke="#2563EB" stroke-width="1.8"/>
+<text x="837" y="311.0" font-family="Consolas, Menlo, 'DejaVu Sans Mono', monospace" font-size="11" font-weight="bold" fill="#1E3A8A" text-anchor="start" >get_valid_student_count()</text>
+<text x="837" y="329.0" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="10.5" font-weight="normal" fill="#475569" text-anchor="start" >Ask until class size is a whole number &gt;= 1</text>
+<rect x="825" y="352.0" width="370" height="46" rx="8" fill="#F1F5F9" stroke="#64748B" stroke-width="1.8"/>
+<text x="837" y="371.0" font-family="Consolas, Menlo, 'DejaVu Sans Mono', monospace" font-size="11" font-weight="bold" fill="#0F172A" text-anchor="start" >parse_whole_number(text)</text>
+<text x="837" y="389.0" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="10.5" font-weight="normal" fill="#475569" text-anchor="start" >Text to int, or None if not a whole number</text>
+<rect x="825" y="412.0" width="370" height="46" rx="8" fill="#DBEAFE" stroke="#2563EB" stroke-width="1.8"/>
+<text x="837" y="431.0" font-family="Consolas, Menlo, 'DejaVu Sans Mono', monospace" font-size="11" font-weight="bold" fill="#1E3A8A" text-anchor="start" >get_valid_student_name(position)</text>
+<text x="837" y="449.0" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="10.5" font-weight="normal" fill="#475569" text-anchor="start" >Ask until the name is not empty</text>
+<rect x="825" y="472.0" width="370" height="46" rx="8" fill="#F1F5F9" stroke="#64748B" stroke-width="1.8"/>
+<text x="837" y="491.0" font-family="Consolas, Menlo, 'DejaVu Sans Mono', monospace" font-size="11" font-weight="bold" fill="#0F172A" text-anchor="start" >clean_name(name)</text>
+<text x="837" y="509.0" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="10.5" font-weight="normal" fill="#475569" text-anchor="start" >strip, collapse spaces, title()</text>
+<rect x="825" y="532.0" width="370" height="46" rx="8" fill="#DBEAFE" stroke="#2563EB" stroke-width="1.8"/>
+<text x="837" y="551.0" font-family="Consolas, Menlo, 'DejaVu Sans Mono', monospace" font-size="11" font-weight="bold" fill="#1E3A8A" text-anchor="start" >get_valid_mark(student_name)</text>
+<text x="837" y="569.0" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="10.5" font-weight="normal" fill="#475569" text-anchor="start" >Ask until marks are a whole number 0-100</text>
+<rect x="825" y="592.0" width="370" height="46" rx="8" fill="#DCFCE7" stroke="#16A34A" stroke-width="1.8"/>
+<text x="837" y="611.0" font-family="Consolas, Menlo, 'DejaVu Sans Mono', monospace" font-size="11" font-weight="bold" fill="#14532D" text-anchor="start" >print_report(student_names, student_marks)</text>
+<text x="837" y="629.0" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="10.5" font-weight="normal" fill="#475569" text-anchor="start" >Compute every statistic and print the report</text>
+<rect x="825" y="652.0" width="370" height="46" rx="8" fill="#EDE9FE" stroke="#7C3AED" stroke-width="1.8"/>
+<text x="837" y="671.0" font-family="Consolas, Menlo, 'DejaVu Sans Mono', monospace" font-size="11" font-weight="bold" fill="#4C1D95" text-anchor="start" >calculate_average(marks)</text>
+<text x="837" y="689.0" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="10.5" font-weight="normal" fill="#475569" text-anchor="start" >sum(marks) / len(marks)</text>
+<rect x="825" y="712.0" width="370" height="46" rx="8" fill="#EDE9FE" stroke="#7C3AED" stroke-width="1.8"/>
+<text x="837" y="731.0" font-family="Consolas, Menlo, 'DejaVu Sans Mono', monospace" font-size="11" font-weight="bold" fill="#4C1D95" text-anchor="start" >find_students_with_mark(names, marks, target_mark)</text>
+<text x="837" y="749.0" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="10.5" font-weight="normal" fill="#475569" text-anchor="start" >All students with a given mark (ties)</text>
+<rect x="825" y="772.0" width="370" height="46" rx="8" fill="#EDE9FE" stroke="#7C3AED" stroke-width="1.8"/>
+<text x="837" y="791.0" font-family="Consolas, Menlo, 'DejaVu Sans Mono', monospace" font-size="11" font-weight="bold" fill="#4C1D95" text-anchor="start" >count_pass_fail(marks)</text>
+<text x="837" y="809.0" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="10.5" font-weight="normal" fill="#475569" text-anchor="start" >(passed, failed) using PASS_MARK</text>
+<rect x="825" y="832.0" width="370" height="46" rx="8" fill="#EDE9FE" stroke="#7C3AED" stroke-width="1.8"/>
+<text x="837" y="851.0" font-family="Consolas, Menlo, 'DejaVu Sans Mono', monospace" font-size="11" font-weight="bold" fill="#4C1D95" text-anchor="start" >get_students_above_average(names, marks, average)</text>
+<text x="837" y="869.0" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="10.5" font-weight="normal" fill="#475569" text-anchor="start" >(name, mark) pairs strictly above average</text>
+<rect x="825" y="892.0" width="370" height="46" rx="8" fill="#EDE9FE" stroke="#7C3AED" stroke-width="1.8"/>
+<text x="837" y="911.0" font-family="Consolas, Menlo, 'DejaVu Sans Mono', monospace" font-size="11" font-weight="bold" fill="#4C1D95" text-anchor="start" >get_ranking(names, marks)</text>
+<text x="837" y="929.0" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="10.5" font-weight="normal" fill="#475569" text-anchor="start" >(rank, name, mark) via sorted(); ties share a rank</text>
+<rect x="653" y="292.0" width="120" height="46" rx="8" fill="#F1F5F9" stroke="#64748B" stroke-width="2"/>
+<text x="713" y="312.0" font-family="Consolas, Menlo, 'DejaVu Sans Mono', monospace" font-size="13" font-weight="bold" fill="#0F172A" text-anchor="middle" >main()</text>
+<text x="713" y="329.0" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="10.5" font-weight="normal" fill="#475569" text-anchor="middle" >entry point</text>
+<path d="M773,315.0 L795,315.0 L795,615.0" fill="none" stroke="#475569" stroke-width="1.9" stroke-linejoin="round" stroke-linecap="round" stroke-dasharray="6 4"/>
+<path d="M795,315.0 L825,315.0" fill="none" stroke="#475569" stroke-width="1.9" stroke-linejoin="round" stroke-linecap="round" stroke-dasharray="6 4" marker-end="url(#ah-slate)"/>
+<path d="M795,435.0 L825,435.0" fill="none" stroke="#475569" stroke-width="1.9" stroke-linejoin="round" stroke-linecap="round" stroke-dasharray="6 4" marker-end="url(#ah-slate)"/>
+<path d="M795,555.0 L825,555.0" fill="none" stroke="#475569" stroke-width="1.9" stroke-linejoin="round" stroke-linecap="round" stroke-dasharray="6 4" marker-end="url(#ah-slate)"/>
+<path d="M795,615.0 L825,615.0" fill="none" stroke="#475569" stroke-width="1.9" stroke-linejoin="round" stroke-linecap="round" stroke-dasharray="6 4" marker-end="url(#ah-slate)"/>
+<text x="801" y="286.0" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="10.5" font-weight="normal" fill="#475569" text-anchor="start" font-style="italic">«calls»</text>
+<path d="M1195,315.0 L1209,315.0 L1209,367.0 L1195,367.0" fill="none" stroke="#475569" stroke-width="1.9" stroke-linejoin="round" stroke-linecap="round" stroke-dasharray="6 4" marker-end="url(#ah-slate)"/>
+<path d="M1195,435.0 L1209,435.0 L1209,495.0 L1195,495.0" fill="none" stroke="#475569" stroke-width="1.9" stroke-linejoin="round" stroke-linecap="round" stroke-dasharray="6 4" marker-end="url(#ah-slate)"/>
+<path d="M1195,555.0 L1227,555.0 L1227,383.0 L1195,383.0" fill="none" stroke="#475569" stroke-width="1.9" stroke-linejoin="round" stroke-linecap="round" stroke-dasharray="6 4" marker-end="url(#ah-slate)"/>
+<path d="M1195,615.0 L1219,615.0 L1219,915.0" fill="none" stroke="#475569" stroke-width="1.9" stroke-linejoin="round" stroke-linecap="round" stroke-dasharray="6 4"/>
+<path d="M1219,675.0 L1195,675.0" fill="none" stroke="#475569" stroke-width="1.9" stroke-linejoin="round" stroke-linecap="round" stroke-dasharray="6 4" marker-end="url(#ah-slate)"/>
+<path d="M1219,735.0 L1195,735.0" fill="none" stroke="#475569" stroke-width="1.9" stroke-linejoin="round" stroke-linecap="round" stroke-dasharray="6 4" marker-end="url(#ah-slate)"/>
+<path d="M1219,795.0 L1195,795.0" fill="none" stroke="#475569" stroke-width="1.9" stroke-linejoin="round" stroke-linecap="round" stroke-dasharray="6 4" marker-end="url(#ah-slate)"/>
+<path d="M1219,855.0 L1195,855.0" fill="none" stroke="#475569" stroke-width="1.9" stroke-linejoin="round" stroke-linecap="round" stroke-dasharray="6 4" marker-end="url(#ah-slate)"/>
+<path d="M1219,915.0 L1195,915.0" fill="none" stroke="#475569" stroke-width="1.9" stroke-linejoin="round" stroke-linecap="round" stroke-dasharray="6 4" marker-end="url(#ah-slate)"/>
+<rect x="30" y="979" width="22" height="14" rx="3" fill="#DBEAFE" stroke="#2563EB" stroke-width="1.6"/>
+<text x="60" y="991" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="normal" fill="#334155" text-anchor="start" >Input function</text>
+<rect x="285" y="979" width="22" height="14" rx="3" fill="#EDE9FE" stroke="#7C3AED" stroke-width="1.6"/>
+<text x="315" y="991" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="normal" fill="#334155" text-anchor="start" >Calculation / decision function</text>
+<rect x="540" y="979" width="22" height="14" rx="3" fill="#DCFCE7" stroke="#16A34A" stroke-width="1.6"/>
+<text x="570" y="991" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="normal" fill="#334155" text-anchor="start" >Output function</text>
+<rect x="795" y="979" width="22" height="14" rx="3" fill="#F1F5F9" stroke="#64748B" stroke-width="1.6"/>
+<text x="825" y="991" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="normal" fill="#334155" text-anchor="start" >Helper / entry point</text>
+<path d="M1060,986 L1105,986" fill="none" stroke="#475569" stroke-width="1.9" stroke-linejoin="round" stroke-linecap="round" stroke-dasharray="6 4" marker-end="url(#ah-slate)"/>
+<text x="1115" y="991" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="normal" fill="#334155" text-anchor="start" >«calls»</text>
+</svg>
